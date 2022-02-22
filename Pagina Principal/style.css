@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 100px;
+}
+
+div#imagens {
+    text-align: center;
+    height: 300px;
+}
+
+div#imagens img {
+    width: 300px;
+    border-radius: 60px;
+    margin-left: 20px;
+}
+
+img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-family: cursive;
+}
