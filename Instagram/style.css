@@ -51,6 +51,38 @@ input {
     border: 1px solid lightgray;
     border-radius: 5px;
     padding-left: 10px;
+    background-color: #fafafa;
+}
+
+button {
+    background-color: #0195f6;
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #0195d4;
+}
+
+.campos p {
+    color: #385185;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.campos p:hover {
+    cursor: pointer;
+}
+
+#div {
+    color: #8e8e8e;
+    margin-bottom: 20px;
 }
 
 .group {
