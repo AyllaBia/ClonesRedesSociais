@@ -7,7 +7,109 @@
     font-size: 14px;
 }
 
-h1 {
-    color: blue;
-    font-size: 72px;
+div#interface {
+    background-color: #f2f2f2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+header img {
+    width: 150px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+}
+
+nav li:hover {
+    cursor: pointer;
+}
+
+nav li img {
+    width: 30px;
+}
+
+img.fotoPerfil {
+    border-radius: 100%;
+    width: 60px;
+}
+
+div#campoBusca {
+    background-color: #efefef;
+    border-radius: 5px;
+    width: 250px;
+    padding: 0 15px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+}
+
+div#stories {
+    background-color: #ffffff;
+    width: 600px;
+    padding: 20px 0;
+    display: flex;
+    border: solid 1px lightgray;
+}
+
+div#stories li {
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+}
+
+div#stories img {
+    list-style: none;
+    width: 60px;
+    border-radius: 100%;
+    border: solid 2px rgb(4, 219, 4);
+}
+
+div.post {
+    margin-top: 30px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: solid 1px lightgray;
+}
+
+div.post img.post{
+    width: 600px;
+}
+
+div.post li {
+    list-style: none;
+}
+
+div.post li img {
+    width: 25px;
+    margin: 5px;
+}
+
+div.fotoPost img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#opcoesPost {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
 }
